@@ -18,7 +18,7 @@
 }
 
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--pale-blue);
     padding: 5rem 1rem 0;
 }
@@ -96,6 +96,7 @@ button {
     outline: none;
     margin-top: 1rem;
     cursor: pointer;
+    transition: all .3s;
 }
 
 button:first-of-type {
@@ -109,4 +110,12 @@ button:last-of-type {
     background-color: transparent;
     color: var(--desaturated-blue);
     font-weight: 700;
+}
+
+a:hover {
+    color: var(--desaturated-blue);
+}
+
+button:hover {
+    filter: brightness(150%);
 }
